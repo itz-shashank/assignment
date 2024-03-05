@@ -1,0 +1,31 @@
+httml{ margin: 0;
+padding: 0;
+}
+.heading{
+    color:  rgb(39, 118, 215);
+}
+header{
+    background-color: rgb(39, 118, 215);
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+}
+.fr{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgb(39, 118, 215);
+    color: aliceblue;
+}
+footer{
+    margin-top: 3rem;
+    height: 80px;
+    background-color: rgb(40, 38, 38);
+    color: aliceblue;
+    text-align: center;
+    line-height: 5rem;
+}
