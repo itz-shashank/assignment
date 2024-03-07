@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment3</title>
+    <header>
+      <h1>CodingNest Assignment No 3</h1>
+      <nav style="">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="sec1">
+      <h2>Section 1: Introduction</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fuga!
+      </p>
+      <img src="image1.jpg"  alt="" />
+    </div>
+    <div class="sec2"><h2>Section 2: Cards</h2>
+      <div id="card1">
+        <h2>Card 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit
+          exercitationem autem architecto ab ex
+        </p>
+      </div>
+      <div id="card2">
+        <h2>Card 2</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quaerat
+          blanditiis quas recusandae provident? Fugit?
+        </p>
+      </div>
+      <div id="card3">
+        <h2>Card 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed
+          repellat corporis doloribus commodi consequuntur?
+        </p>
+      </div>
+    </div>
+    <div class="sec3"><h2>Section 3: Image Gallery</h2>
+    <img src="neom-AGZgrNeq7Kg-unsplash.jpg" alt="" class="fig">
+    <img src="nasa-hubble-space-telescope-SkInLcVMCUI-unsplash.jpg" alt="" class="fig">
+    <img src="remy_loz-5U5vjGjrY5I-unsplash.jpg" alt="" class="fig">
+</div>
+<div class="sec4"><h2>Section 4: Video Embed</h2>
+<video width="320" height="240" controls >
+  <source src="wooly-mammoth.mp4">
+</video></div>
+<div class="sec5"><h2>Section 5: User Registration</h2>
+    <form action="#" method="post" class="fr">
+        <label for="name"><b>Name:</b> </label>
+        <input type="text" id="name" name="name" required>
+<br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" required>
+<br>
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" required><br>
+        <label for="gender"><b>Gender:</b></label>
+        
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label> <br>
+        <input type="radio" name="gender" id="female" value="female">
+        <div class="dropdown">
+          <button class="dropbtn"><b>Country</b></button>
+          <div class="dropdown-content">
+            <a href="#">India</a>
+            <a href="#">Usa</a>
+            <a href="#">Germany</a>
+          </div>
+          <label for="intrests"><b>Intrests:</b></label>
+          <textarea id="intrests" name="intrests" rows="4" required></textarea>
+          <br>
+          <label for="bio"><b>Bio:</b></label>
+          <textarea id="bio" name="bio" rows="4" required></textarea> <br>
+        <button type="submit" class="btn">Register</button>
+    </form></div>
+  </body>
+</html>

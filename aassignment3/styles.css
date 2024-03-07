@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+header {
+  background-color: rgb(31, 29, 29);
+  color: aliceblue;
+  text-align: center;
+  padding: 1rem;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  margin-left: 16px;
+}
+.sec1 {
+  padding: 20px;
+  background-color: rgb(243, 178, 58);
+}
+
+.sec2 {
+  padding: 20px;
+  background-color: aqua;
+  display: flex;
+}
+#card1 {
+  background-color: rgb(243, 178, 58);
+  max-width: 300px;
+  max-height: 150px;
+  border-radius: 15px;
+  padding: 3px;
+  margin: 20px;
+  margin-top: 75px;
+  padding-left: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+#card2 {
+  background-color: rgb(98, 211, 173);
+  max-width: 300px;
+  max-height: 150px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 3px;
+  margin: 20px;
+  margin-top: 250px;
+  padding-left: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+#card3 {
+  background-color: rgb(254, 173, 74);
+  max-width: 300px;
+  max-height: 150px;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 20px;
+  float: inline-end;
+  margin-top: 75px;
+  padding-left: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.sec3 {
+  padding: 20px;
+  background-color: rgb(118, 198, 122);
+}
+.sec4 {
+  padding: 20px;
+  background-color: rgb(243, 178, 58);
+}
+.sec5 {
+  padding: 20px;
+  background-color: rgb(88, 88, 223);
+}
+form {
+  padding: 20px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  word-spacing: 2rem;
+}
+.dropbtn {
+  background-color: rgb(210, 240, 150);
+}
+.btn {
+  margin-top: 25px;
+  color: aliceblue;
+  background-color: black;
+}
+#bio {
+  margin-top: 25px;
+  margin-left: 25px;
+}
