@@ -1,0 +1,108 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(33, 28, 28);
+  color: aliceblue;
+  text-align: center;
+  padding: 0.2rem;
+}
+.navi {
+  margin-top: 1%;
+  background-color: rgb(56, 49, 49);
+  padding: 6px;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 0.7rem;
+}
+.title {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.about {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.services {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.account {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.contact {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.login {
+  margin: 2rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+form {
+  margin-left: 21rem;
+  max-width: 50vh;
+  background-color: rgb(244, 247, 249);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  word-spacing: 2rem;
+}
+input {
+  margin: 1rem;
+}
+.card1,
+.card2,
+.card3 {
+  align-items: center;
+  align-content: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgb(247, 246, 246);
+  max-width: 35vh;
+  max-height: 20vh;
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.card {
+  margin-left: 2rem;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+footer {
+  background-color: rgb(28, 27, 27);
+  color: aliceblue;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  line-height: 2rem;
+}
