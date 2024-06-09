@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  color: rgb(179, 117, 117);
+  font-size: 24px;
+  font-weight: bold;
+  margin-inline-start: 20px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  margin-left: 20px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(133, 78, 78);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-inline-end: 20px;
+}
+.navbar button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(179, 117, 117);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.left-side {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+  color: rgb(31, 27, 27);
+}
+
+.left-side h2 {
+  font-size: 5em;
+  margin: 0;
+}
+
+.left-side p {
+  font-size: 3em;
+}
+
+.right-side {
+  background-color: rgba(255, 255, 255, 0.2);
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.rectangle {
+  width: 80%;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.toggle-button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: black;
+}
