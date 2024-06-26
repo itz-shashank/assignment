@@ -1,0 +1,76 @@
+* {
+  margin: 20px;
+  padding: 0;
+}
+a {
+  font-size: large;
+  color: black;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+}
+.right {
+  position: relative;
+  margin-left: 60%;
+}
+.btn {
+  border: 2px solid black;
+  padding: 5px;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 5px;
+}
+.box {
+  display: flex;
+  gap: 20%;
+  padding: 20px;
+}
+
+.box1 {
+  flex: 1;
+  max-width: 60vw;
+  height: 70vh;
+}
+
+.box2 {
+  max-width: 60vw;
+  height: 70vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.head {
+  font-size: xx-large;
+  font-weight: 800;
+}
+.sub {
+  font-size: larger;
+  color: rgb(93, 99, 105);
+  font-weight: 300;
+}
+p {
+  font-weight: 300;
+  font-size: large;
+}
+.images img {
+  max-width: 20px;
+}
+.images {
+  display: flex;
+  bottom: 0;
+}
+footer {
+  display: flex;
+  gap: 40%;
+}
+.topics {
+  display: flex;
+}
+.topic1 {
+  display: flex;
+  flex-direction: column;
+}
