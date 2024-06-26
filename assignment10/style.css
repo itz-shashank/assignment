@@ -60,3 +60,28 @@ form a{
    margin-bottom: 20px;
    
 }
+.mail{
+    border-color: rgb(111, 101, 101);
+}
+hr{
+    margin-top: 30%;
+    color: rgb(54, 52, 52);
+}
+footer{
+  display: flex;
+    margin: 20px;
+}
+.foot{
+  float: left;
+  font-size: larger;
+}
+.icon{
+    position: relative;
+    margin-left: 80%;
+display: flex;
+float: right;
+}
+.icon img{
+    margin-left: 20px;
+    max-width: 30px;
+}
