@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main,
+footer {
+  margin: 20px 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: rgb(25, 22, 22);
+  font-size: x-large;
+}
+.nright {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  color: aliceblue;
+  font-size: larger;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10%;
+}
+.container {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  gap: 20%;
+}
+.rbox {
+  height: 800px;
+  width: 500px;
+  border-radius: 50px;
+}
+.rbox img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+.lbox {
+  max-height: 800px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.lbox h1 {
+  font-size: 60px;
+}
+.lbox h2 {
+  color: rgb(110, 98, 98);
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid rgb(110, 98, 98);
+  border-color: rgb(110, 98, 98);
+  border-radius: 10px;
+}
+textarea {
+  padding: 15px;
+  border: 1px solid rgb(110, 98, 98);
+  border-radius: 10px;
+  height: 200px;
+}
+form button {
+  color: aliceblue;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+.comp {
+  gap: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  font-weight: 900;
+}
+.name {
+  font-size: larger;
+  font-weight: 900;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+footer {
+  margin-top: 50px;
+}
+.temp1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.temp2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.images img {
+  max-width: 20px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+footer {
+  display: flex;
+  gap: 60%;
+}
+.topics {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+.topic1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.name {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
