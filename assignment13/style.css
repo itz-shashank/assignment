@@ -145,8 +145,4 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
-.name {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
+
